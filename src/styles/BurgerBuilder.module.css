@@ -1,0 +1,157 @@
+.main {
+   display: flex;
+   justify-content: space-around;
+}
+.dummy {
+   padding-bottom: 5px;
+   font-size: 16px;
+   font-weight: 600;
+}
+.burger {
+   width: 300px;
+   padding: 30px;
+   height: 300px;
+   margin: 50px auto;
+   text-align: center;
+   overflow-y: scroll;
+}
+.burger_top {
+   width: 300px;
+   height: 80px;
+   border-radius: 200px 200px 0 0;
+   background: rgb(209, 146, 30);
+   margin-bottom: 10px;
+}
+.burger_bottom {
+   width: 300px;
+   height: 80px;
+   border-radius: 0 0 200px 200px;
+   background: rgb(209, 146, 30);
+}
+.salad {
+   width: 300px;
+   height: 25px;
+   background: rgb(8, 189, 8);
+   border-radius: 50px;
+   margin-bottom: 10px;
+}
+.meat {
+   width: 300px;
+   height: 20px;
+   background: rgb(77, 17, 17);
+   margin-bottom: 10px;
+}
+.cheese {
+   width: 300px;
+   height: 20px;
+   border-radius: 10px;
+   background: rgb(252, 221, 82);
+   margin-bottom: 10px;
+}
+.bacon {
+   width: 300px;
+   height: 10px;
+   border-radius: 10px;
+   background: rgb(145, 86, 10);
+   margin-bottom: 10px;
+}
+
+/* controller css 
+ */
+
+.controller {
+   width: 300px;
+   background: rgb(231, 185, 33);
+   padding: 20px;
+   margin: auto;
+}
+.prize {
+   text-align: center;
+   font-weight: 600;
+}
+.controller .controller_element {
+   margin: 10px;
+   padding: 10px;
+   border: 1px solid #838383;
+   display: flex;
+   justify-content: space-around;
+}
+.controller_element .element_name {
+   text-align: center;
+   font-size: 20px;
+   font-weight: bold;
+}
+.add {
+   background: rgb(85, 241, 85);
+   font-size: 16px;
+   border: none;
+   border-radius: 5px;
+   padding: 5px 10px;
+   cursor: pointer;
+   font-weight: bold;
+   color: #262424;
+}
+.remove {
+   background: rgb(235, 78, 78);
+   font-size: 16px;
+   border: none;
+   border-radius: 5px;
+   padding: 5px 10px;
+   cursor: pointer;
+   font-weight: bold;
+   color: #262424;
+}
+
+/* responsive css  */
+@media only screen and (max-width: 760px) {
+   .main {
+      display: block;
+   }
+   .burger {
+      margin: auto;
+   }
+}
+@media only screen and (max-width: 400px) {
+   .burger {
+      width: 250px;
+      padding: 20px;
+   }
+   .burger_top {
+      width: 250px;
+   }
+   .burger_bottom {
+      width: 250px;
+   }
+   .salad {
+      width: 250px;
+   }
+   .meat {
+      width: 250px;
+   }
+   .cheese {
+      width: 250px;
+   }
+   .bacon {
+      width: 250px;
+   }
+   .controller {
+      width: 250px;
+      padding: 10px;
+   }
+   .controller .controller_element {
+      padding: 10px;
+      border: 1px solid #838383;
+   }
+   .controller_element .element_name {
+      font-size: 16px;
+      font-weight: 600;
+   }
+   .add {
+      font-size: 14px;
+      font-weight: 600;
+   }
+   .remove {
+      font-size: 14px;
+      font-weight: 600;
+   }
+}

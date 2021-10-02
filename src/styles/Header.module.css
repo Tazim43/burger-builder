@@ -1,0 +1,22 @@
+.navbar {
+   background: rgb(219 159 91);
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   padding: 20px;
+   color: rgb(255 247 4);
+   margin-bottom: 30px;
+   width: 100%;
+}
+.navbar h1 {
+   font-size: 40px;
+}
+
+@media only screen and (max-width: 760px) {
+   .navbar {
+      padding: 10px;
+   }
+   .navbar h1 {
+      font-size: 30px;
+   }
+}
